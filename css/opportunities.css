@@ -1,0 +1,196 @@
+body{
+	background-color:#E5E5E5;
+}
+/*navbar1*/
+.navbar1{
+	background-color:#F8F8F8;
+	min-height:103px;
+}
+.navbar1 img{
+	height:81.54px;
+	width:180px;
+	margin-top:-8px;
+}
+.navbar1 ul{
+	
+	margin-top:25px;
+}
+.navbar1 ul a {
+	font-size:16px;
+	color:#220022;
+
+
+}
+.nav_collapsible1 span{
+	background-color:black;
+}
+.nav_collapsible1{
+	margin-top:-25px;
+}
+@media only screen and (max-width: 767px) {
+    
+	.nav_collapsible_content ul{
+		margin-left:7px;
+		margin-top:50px;
+	}
+    
+}
+@media only screen and (max-width: 862px) and (min-width:768px) {
+    
+	.navbar1 ul{
+	
+	margin-top:-25px;
+}
+    
+}
+
+/*navbar1*/
+
+/*JUMBOTRON*/
+.jumbotron{
+	display:block;
+	background-color:#333333;
+	margin-top:-20px;
+	min-height:284px;
+}
+.jumbotron h1{
+	font-size:40px;
+	color:#FFFFFF;
+	text-align:center;
+
+}
+.jumbotron_opportunities_underline{
+	border-bottom: 1px solid #FFFFFF;
+}
+.jumbotron p{
+	color:#C8C8C8;
+	font-size:16px;
+	text-align:center;
+	margin-top:45px;
+}
+
+/*JUMBOTRON*/
+
+/*navbar2*/
+.flex-container {
+  display:flex;
+  flex-wrap:wrap;
+  background-color:#F7F7F7;
+  min-height:73px;
+  margin-bottom:35px;
+}
+.flex-container>p{
+  
+  margin: 10px;
+  padding:20px;
+  font-size: 30px;
+  text-align: center;
+}
+.flex-container>input{
+  height:54px;
+  background-color:#E8E8E8;
+  max-width:558px;
+  margin: 25px;
+  padding:20px;
+  font-size: 30px;
+  text-align: center;
+}
+.flex-container>select{
+  height:54px;
+  max-width:180px;
+  margin:25px;
+  padding:20px;
+  font-size: 30px;
+  text-align: center;
+  background-color:#E8E8E8;
+}
+/*navbar2*/
+
+/*tab*/
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+#exTab1 .nav-pills a{
+	font-size:30px;
+}
+#exTab1 .tab-pane p{
+	font-size:30px;
+}
+/*tab*/
+
+/*panel*/
+#exTab2 .tab-content {
+  color :#404040;
+ 
+  padding : 5px 15px;
+}
+#exTab2 .tab-pane p{
+	font-size:24px;
+}
+#exTab2 .tab-pane{
+	border-bottom:1px solid #000000;
+	border-top:1px solid #000000;
+}
+#exTab2 .tab-pane1{
+	border-left:5px solid #FC1E1E;
+}
+#exTab2 .tab-pane2{
+	border-left:5px solid #219653;
+}
+#exTab2 .tab-pane3{
+	border-left:5px solid #F2C94C;
+}
+#exTab2 .tab-pane4{
+	border-left:5px solid #219653;
+}
+#exTab2 .tab-pane5{
+	border-left:5px solid #FC1E1E;
+}
+#exTab2 .tab-pane6{
+	border-left:5px solid #F2C94C;
+}
+@media only screen and (max-width: 992px) {
+    
+	#exTab2 .tab-pane p{
+	font-size:14px;}
+	#exTab1 .tab-pane p{
+	font-size:14px;
+	}
+}
+@media only screen and (max-width: 698px) {
+    
+	#exTab2 .tab-pane p{
+	font-size:10px;}
+	#exTab1 .tab-pane p{
+	font-size:10px;
+	}
+}
+@media only screen and (max-width: 542px) {
+    
+	#exTab2 .tab-pane p{
+	font-size:8px;}
+	#exTab1 .tab-pane p{
+	font-size:8px;
+	}
+}
+
+
+
+    
+
+/*panel*/
+/*display property*/
+.mySlides {display:none}
+.color_panel_button{
+	opacity:0.5;
+}
+/*display property*/
+
+
+
+
