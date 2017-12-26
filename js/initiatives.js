@@ -21,43 +21,42 @@ $(document).ready(function(){
         i++;
     }
 //highlight
+        
+
        $(".E-talks-button li").click(function(){
-        var a = $(this);
-        a.css("background-color","#0C7AB8");
+        var b = $(this);
+        b.addClass('active_active');
         $(".E-talks-button li").click(function(){
-            if($(this)!==a){
-                a.css("background-color","white");
-                $(this).css("background-color","#0C7AB8");
+            if($(this)!==b){
+                b.css("background-color","white");
+                $(this).addClass('active_active');
             }else{
-                a.css("background-color","#0C7AB8");
+                b.addClass('active_active');
             }
         });
-        
+
        
     });
+      
 //hl//
+$('#myCarousel').on('slid.bs.carousel', function() {
 
-//new Active State
-$('.carousel-indicators li').click(function(){
-    var a = $(this);
-    var dataslidevalue = a.attr("data-slide-to");
-    $('.E_talks_button li[data-slide-to="'+dataslidevalue+'"]').css("background-color","#0C7AB8");
-    $(".carousel-indicators li").click(function(){
-            if($(this)!==a){
-                $('.E_talks_button li[data-slide-to="'+dataslidevalue+'"]').css("background-color","white");
-                var dataslidevaluenew = $(this).attr("data-slide-to");
-                $('.E_talks_button li[data-slide-to="'+dataslidevaluenew+'"]').css("background-color","#0C7AB8");
-            }else{
-                $('.E_talks_button li[data-slide-to="'+dataslidevalue+'"]').css("background-color","#0C7AB8");
-            }
-        });
+    var currentIndex = $('div.active').index();
+    $('.E_talks_button li').each(function(index) {
+        
+        if(index == currentIndex){
+        $(this).addClass('active_active');
+        }else{
+        $(this).removeClass('active_active');
+    }
+    });
+    
 });
-    
+
 
     
-    
-    
-     
+
+
 //new Active State
 
 

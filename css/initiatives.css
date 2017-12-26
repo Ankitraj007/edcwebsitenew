@@ -127,6 +127,9 @@ body{background-color:#E5E5E5;}
 .color_added{
 	background-color:#0C7AB8;
 }
+.active_active{
+	background-color:#0C7AB8 !important;
+}
 /*color*/
 
 
